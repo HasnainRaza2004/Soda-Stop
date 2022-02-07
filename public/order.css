@@ -1,0 +1,80 @@
+
+:root{
+    --primary-color:#A82C48;
+    --secondary-color:#77001a;
+    --third-color:#f98169;
+    --text-gray:#999;
+    --text-color:rgb(58, 57, 57);
+    --white-color:#ffffff;
+    --black-color:#000000;
+    --secondary-font:'Mochiy Pop P One', 'sans-serif';
+    --primary-font:'Roboto', 'sans-serif';
+}
+.card h2{
+    font-weight: normal;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order-up-container{
+    width: 100%;
+    height: 100vh;
+    font-family: var(--primary-font);
+    background:#b8c0ff;
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 0 40px 20px rgba(0, 0,0,0.30 );
+    perspective: 1000px;
+}
+.inner-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.customer-details{
+width: 100%;
+height: 100%;
+background-position: center;
+background-size: cover;
+background-image: linear-gradient(rgba(0, 0, 100, 0.8),rgba(0,0,100,0.8)),url(Images/order-form-bg.jfif);
+padding: 55px;
+box-sizing: border-box; 
+}
+.Inp-field{
+    width: 100%;
+    background: transparent;
+    border: 1px solid var(--white-color);
+    margin: 6px 0;
+    height: 2rem;
+    border-radius: 1.3rem;
+    padding: 0 0.8.375rem;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: var(--white-color);
+}
+::placeholder{
+    color: var(--white-color);
+    font-size: 0.9rem;
+}
+button{
+    width: 100%;
+    background: transparent;
+    border: 1px solid var(--white-color);
+    margin: 2rem 0 0.7rem;;
+    height: 2rem;
+    font-size: 0.925rem;
+    border-radius: 1.4rem;
+    padding: 0 0.8rem;
+    box-sizing: border-box;
+    outline: none;
+    color: var(--white-color);
+    cursor: pointer;
+}

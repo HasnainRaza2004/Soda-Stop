@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>SODA STOP</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Quicksand&family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300&display=swap');
+      </style>
+      <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive-design.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  </head>
+  <body>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+
+    
+
+
+                      <!-- =================HEADER DESIGN=============== -->
+    
+<header>
+  <nav class="navbar navbar-expand-lg navigation-wrap">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="Images/Soda-Stop-logo-removebg-preview-removebg-preview.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+         <i class="fas fa-stream navbar-toggler-icon"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#explore-flavours">Explore Flavours</a> 
+          </li>
+          <li class="nav-item" id='logout'>
+            <a class="nav-link" href="Sign up.html">Log Out</a> 
+          </li>
+          <li> 
+            <button class="main-btn">03353733609</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+                     <!-- SECTION 01 TOP BANNER -->
+ <section id="home">
+   <div class="container-fluid px-o top-banner">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-5 col-md-6">
+           <h1>Beat the heat with (Soda Stop)</h1>
+           <p>“In this world, there are only a few things more available than gasoline: coffee, soda and beer"</p>
+           <div class="mt-4">
+            <a class="text-white" href="order.html"><button class="main-btn">Order Now<i class="fas fa-shopping-basket ps-3"></i></button></a>
+             <button class="white-btn ms-lg-4 mt-lg-0 mt-4" >Learn more <i class="fas fa-angle-right ps-3"></i></button>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ 
+      <!--======================= Section 02 Counter ================  -->
+<section id="counter">
+  <section class="counter-section">
+    <div class="container">
+      <div class="row text-center">
+<div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+  <h2>
+    <span id="count1"></span>+
+    <p class="conter-p">Orders</p>
+  </h2>
+</div>
+<div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+  <h2>
+    <span id="count2"></span>+
+    <p class="conter-p">Customers</p>
+  </h2>
+</div>
+<div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+  <h2>
+    <span id="count3"></span>+
+    <p class="conter-p">Reviews</p>
+  </h2>
+</div>
+<div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+  <h2>
+    <span id="count4"></span>+
+    <p class="conter-p">Ratings</p>
+  </h2>
+</div>
+      </div>
+    </div>
+  </section>
+</section>
+
+
+<!-- =========================Section 3(a) About===================== -->
+<section id="about">
+<div class="about-section wrapper">
+<div class="container">
+  <div class="row align-items-center">
+    <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+      <div class="card border-0">
+        <img src="Images/images.jfif" class="img-fluid">
+      </div>
+    </div>
+      <div class="col-lg-5 col-md-12 text-sec">
+        <h2>Why do people like fizzy drinks?  They are Sodalicious.</h2>
+        <p>I used to think drinking soda is bad for me   !So i gave up thinking.</p>
+<button class="main-btn mt-4" data-aos="fade-left">Leran More</button>
+      
+    </div>
+  </div>
+</div>
+</div>
+<div class="container soda-type pb-4">
+<div class="row align-items-center">
+  <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
+    <h2>We make everything by hand with the best possible ingredients.</h2>
+    <p>We have a exclusive drink that is called "Fresh LIME" .</p>
+    <ol class="list-unstyled py-3">
+      <h2>Our Flavours</h2>
+      <li>Blue Hawalian(Blue Berry)</li>
+      <li>Zalim Plum(Aloo Bukhara)</li>
+      <li>The Zebra(Cocktail)</li>
+      <li>Pine Rock (Pine Apple)</li>
+      <li>Kings Blood(Sting Flavour)</li>
+      <li>Lemon Spud(Lemon)</li>
+      <li>Code Red(Anar)</li>
+      <li>Blackberry</li>
+    </ol>
+    <a class="text-white" href="order.html"><button data-aos="fade-right" class="main-btn mt-4">Order Now</button></a>
+  </div>
+  <div class="col-lg-7 col-md-12">
+    <div class="card border-0">
+      <img src="Images/images (1).jfif" class="img-fluid">
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+
+<!-- ======================SECTION 4 Explore Flavours====================== -->
+<section id="explore-flavours">
+<div class="explore-flavours wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="text-content text-center">
+          <h2>Explore Our Flavours</h2>
+          <p>We have dozen of flavours available.You can Order online and visit our shop also.
+            At Shop # 3 SD 8, near Dilpasand Sweets, Block A North Nazimabad Town, Karachi, Karachi City, Sindh 74600.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row pt-5">
+<div class="col-lg-4 col-md-6 mb-lg-0 mb-5" >
+<div class="card px-4">
+  <img width="100%" height="100px" src="Images/blue-berry-img.jfif" class="img-fluid">
+  <div class="pt-3 text-center">
+<h4>Blue Hawalian(Blue Berry)</h4>
+<p>Time : 5-10 Minutes | Serves : 1</p>
+<span>Rs:150<del>200</del></span>
+<a class="text-white" href="order.html"><button data-aos="flip-left" class="main-btn">Order now</button></a>
+  </div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+<div class="card px-4 text-center">
+  <img width="100%" height="100px" src="Images/lime-flavour.jfif" class="img-fluid">
+  <div class="pt-3">
+<h4>Fresh LIME</h4>
+<p>Time : 5-10 Minutes | Serves : 1</p>
+<span>Rs:250<del>300</del></span>
+<a class="text-white" href="order.html"><button data-aos="flip-left" class="main-btn">Order now</button></a>
+  </div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+<div class="card px-4 text-center">
+  <img width="100%" height="100px" src="Images/red-soda-images.jfif" class="img-fluid">
+  <div class="pt-3">
+<h4>Kings Blood(Sting Flavour)</h4>
+<p>Time : 5-10 Minutes | Serves : 1</p>
+<span>Rs:120<del>180</del></span>
+<a class="text-white" href="order.html"><button data-aos="flip-left" class="main-btn">Order now</button></a>
+  </div>
+</div>
+</div>
+  </div>
+  <div class="row pt-5">
+<div class="col-lg-4 col-md-6 mb-lg-0 mb-5" >
+<div class="card px-4">
+  <img width="100%" height="100px" src="Images/Zalim Plum(Aloo Bukhara)-img.jfif" class="img-fluid">
+  <div class="pt-3 text-center">
+<h4>Zalim Plum(Aloo Bukhara)</h4>
+<p>Time : 5-10 Minutes | Serves : 1</p>
+<span>Rs:100<del>200</del></span>
+<a class="text-white" href="order.html"><button data-aos="flip-left" class="main-btn">Order now</button></a>
+  </div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+<div class="card px-4 text-center">
+  <img width="100%" height="100px" src="Images/The Zebra(Cocktail)-img.jfif" class="img-fluid">
+  <div class="pt-3">
+<h4>The Zebra(Cocktail)</h4>
+<p>Time : 15-20 Minutes | Serves : 1</p>
+<span>Rs:350<del>500</del></span>
+<a class="text-white" href="order.html"><button data-aos="flip-left" class="main-btn">Order now</button></a>
+  </div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+<div class="card px-4 text-center">
+  <img width="100%" height="100px" src="Images/Lemon Spud(Lemon)-img.jfif" class="img-fluid">
+  <div class="pt-3">
+<h4>Lemon Spud(Lemon)</h4>
+<p>Time : 3-5 Minutes | Serves : 1</p>
+<span>Rs:120<del>180</del></span>
+<a class="text-white" href="order.html"><button data-aos="flip-left" class="main-btn">Order now</button></a>
+  </div>
+</div>
+</div>
+  </div>
+  <div class="row pt-5">
+<div class="col-lg-4 col-md-6 mb-lg-0 mb-5" >
+<div class="card px-4">
+  <img width="100%" height="100px" src="Images/Code Red(Anar)-img.jfif" class="img-fluid">
+  <div class="pt-3 text-center">
+<h4>Code Red(Anar)</h4>
+<p>Time : 5-10 Minutes | Serves : 1</p>
+<span>Rs:150<del>250</del></span>
+<a class="text-white" href="order.html"><button data-aos="flip-left" class="main-btn">Order now</button></a>
+  </div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+<div class="card px-4 text-center">
+  <img width="100%" height="100px" src="Images/Pine Rock (Pine Apple)-img.jfif" class="img-fluid">
+  <div class="pt-3">
+<h4>Pine Rock (Pine Apple)</h4>
+<p>Time : 5-10 Minutes | Serves : 1</p>
+<span>Rs:200<del>300</del></span>
+<a class="text-white" href="order.html"><button data-aos="flip-left" class="main-btn">Order now</button></a>
+  </div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+<div class="card px-4 text-center">
+  <img width="100%" height="100px" src="Images/Blackberry-IMG.jfif" class="img-fluid">
+  <div class="pt-3">
+<h4>Blackberry</h4>
+<p>Time : 5-10 Minutes | Serves : 1</p>
+<span>Rs:150<del>220</del></span>
+<a class="text-white" href="order.html"><button data-aos="flip-left" class="main-btn">Order now</button></a>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</section>
+
+
+<!-- ======================SECTION 3(b) Story====================== -->
+<section id="story"> 
+  <div class="story-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="text-content">
+          <h2>It's summer outside, but winter in my cup.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sit consectetur, enim eum dolorem esse earum, dicta impedit ipsam exercitationem tempora. Provident sed 
+            placeat praesentium odio, optio laborum cum maiores.</p>
+            <button data-aos="flip-left" class="main-btn mt-4">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+
+<!-- ======================SECTION 5 Footer====================== -->
+<footer id="footer">
+  <div class="footer py-5">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <div class="footer-social pt-4 text-center">
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-facebook-messenger"></i></a>
+<a href="#"><i class="fab fa-whatsapp-square"></i></a>
+<a href="#"><i class="fab fa-instagram-square"></i></a>
+<a href="#"><i class="fas fa-phone-square-alt"></i></a>
+      </div>
+      <a class="footer-link" href="Sign up.html">Log In<i class="far fa-user-circle"></i></a>
+      <a class="footer-link" href="Sign up.html">Sign Up <i class="fas fa-user-plus"></i></a>      
+<a class="footer-link" href="Sign up.html">Logout<i class="fas fa-sign-out-alt"></i></a>
+    </div>
+  </div>
+  <div class="col-sm-12">
+    <div class="footer-copy">
+      <div class="cop-right text-center pt-5">
+        <p class="text-light" >Only available in Karachi!</p>
+        <p class="text-light">Shop # 3 SD 8, near Dilpasand Sweets, Block A North Nazimabad Town, Karachi, Karachi City, Sindh 74600.</p>
+        <p class="text-dark">© 2022. Soda Stop. All rights reserved.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</footer>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
